@@ -70,6 +70,7 @@ model.config.forced_decoder_ids = processor.get_decoder_prompt_ids(
     language="english",
     task="translate"
 )
+```
 
 ---
 
