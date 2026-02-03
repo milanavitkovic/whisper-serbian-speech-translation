@@ -85,3 +85,24 @@ model.config.forced_decoder_ids = processor.get_decoder_prompt_ids(
   - Used for final evaluation after training  
   - Metrics computed: **WER**, **BLEU**, **METEOR**  
     → provides a comprehensive assessment of transcription accuracy and translation quality
+
+
+## Model Fine-tuning Comparison
+
+In addition to fine-tuning **Whisper-small**, we also performed fine-tuning on **Whisper-medium** to compare performance.  
+
+- **Models evaluated**:
+  - `whisper-small` (fine-tuned)
+  - `whisper-medium` (fine-tuned)
+  - Baseline models without fine-tuning for reference
+
+- **Comparison Metrics**:
+  - **WER** – lower is better (transcription accuracy)
+  - **BLEU** – higher is better (translation quality)
+  - **METEOR** – higher is better (semantic and lexical precision)
+
+- **Findings**:
+  - Fine-tuning significantly improved performance for both models compared to baselines
+  - **Whisper-medium** generally achieved slightly better metrics than **Whisper-small**, but required more computational resources
+  - This comparison highlights the trade-off between model size, performance, and training cost
+
