@@ -73,7 +73,7 @@ model.config.forced_decoder_ids = processor.get_decoder_prompt_ids(
 
 ---
 
-## Evaluation & Testing
+# Evaluation & Testing
 
 - **Validation Set (Južne Vesti validation split)**  
   - Used during training to monitor model performance and select the best epoch  
