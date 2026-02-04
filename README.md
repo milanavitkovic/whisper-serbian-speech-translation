@@ -1,4 +1,4 @@
-# Serbian → English Speech Translation (Whisper)
+# Serbian Speech-to-English Translation (Whisper)
 
 Implementation of a **speech-to-text translation system**
 that translates **Serbian audio directly into English text** using OpenAI’s Whisper model.
